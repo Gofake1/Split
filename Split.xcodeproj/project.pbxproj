@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A6FECB81E39C79300101B81 /* Split.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6FECAE1E39C79200101B81 /* Split.framework */; };
 		4A6FECBD1E39C79300101B81 /* SplitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6FECBC1E39C79300101B81 /* SplitTests.swift */; };
 		4A6FECBF1E39C79300101B81 /* Split.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A6FECB11E39C79200101B81 /* Split.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A6FECC91E39C7DD00101B81 /* Split.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6FECC81E39C7DD00101B81 /* Split.swift */; };
+		4AA2DBB01E431C50002406BC /* Cats.plist.valid in Resources */ = {isa = PBXBuildFile; fileRef = 4AA2DBAF1E431C50002406BC /* Cats.plist.valid */; };
+		4AA2DBB41E43F8CD002406BC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA2DBB31E43F8CD002406BC /* XCTest.framework */; };
+		4AA2DBB61E43FE8E002406BC /* Names.plist.valid in Resources */ = {isa = PBXBuildFile; fileRef = 4AA2DBB51E43FE8E002406BC /* Names.plist.valid */; };
+		4AA2DBB91E468014002406BC /* Rivals.plist.invalid in Resources */ = {isa = PBXBuildFile; fileRef = 4AA2DBB81E468014002406BC /* Rivals.plist.invalid */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +33,13 @@
 		4A6FECB71E39C79300101B81 /* SplitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A6FECBC1E39C79300101B81 /* SplitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitTests.swift; sourceTree = "<group>"; };
 		4A6FECBE1E39C79300101B81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A6FECC81E39C7DD00101B81 /* Split.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Split.swift; sourceTree = "<group>"; };
+		4AA2DBAF1E431C50002406BC /* Cats.plist.valid */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Cats.plist.valid; sourceTree = "<group>"; };
+		4AA2DBB31E43F8CD002406BC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4AA2DBB51E43FE8E002406BC /* Names.plist.valid */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Names.plist.valid; sourceTree = "<group>"; };
+		4AA2DBB71E43FED8002406BC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4AA2DBB81E468014002406BC /* Rivals.plist.invalid */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rivals.plist.invalid; sourceTree = "<group>"; };
+		4AA2DBBA1E469188002406BC /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A6FECB81E39C79300101B81 /* Split.framework in Frameworks */,
+				4AA2DBB41E43F8CD002406BC /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,9 +64,12 @@
 		4A6FECA41E39C79200101B81 = {
 			isa = PBXGroup;
 			children = (
+				4AA2DBB71E43FED8002406BC /* README.md */,
+				4AA2DBBA1E469188002406BC /* LICENSE */,
 				4A6FECB01E39C79200101B81 /* Split */,
 				4A6FECBB1E39C79300101B81 /* SplitTests */,
 				4A6FECAF1E39C79200101B81 /* Products */,
+				4AA2DBB21E43F8CD002406BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				4A6FECB11E39C79200101B81 /* Split.h */,
+				4A6FECC81E39C7DD00101B81 /* Split.swift */,
 				4A6FECB21E39C79200101B81 /* Info.plist */,
 			);
 			path = Split;
@@ -81,9 +96,20 @@
 			isa = PBXGroup;
 			children = (
 				4A6FECBC1E39C79300101B81 /* SplitTests.swift */,
+				4AA2DBAF1E431C50002406BC /* Cats.plist.valid */,
+				4AA2DBB51E43FE8E002406BC /* Names.plist.valid */,
+				4AA2DBB81E468014002406BC /* Rivals.plist.invalid */,
 				4A6FECBE1E39C79300101B81 /* Info.plist */,
 			);
 			path = SplitTests;
+			sourceTree = "<group>";
+		};
+		4AA2DBB21E43F8CD002406BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AA2DBB31E43F8CD002406BC /* XCTest.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +175,7 @@
 					4A6FECAD1E39C79200101B81 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = W6KLMFETUQ;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					4A6FECB61E39C79300101B81 = {
@@ -188,6 +215,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AA2DBB01E431C50002406BC /* Cats.plist.valid in Resources */,
+				4AA2DBB61E43FE8E002406BC /* Names.plist.valid in Resources */,
+				4AA2DBB91E468014002406BC /* Rivals.plist.invalid in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A6FECC91E39C7DD00101B81 /* Split.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +292,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -307,7 +338,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -319,6 +350,7 @@
 		4A6FECC31E39C79300101B81 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -333,6 +365,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.gofake1.Split;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -340,6 +373,7 @@
 		4A6FECC41E39C79300101B81 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
@@ -361,6 +395,7 @@
 		4A6FECC61E39C79300101B81 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = W6KLMFETUQ;
 				INFOPLIST_FILE = SplitTests/Info.plist;
@@ -374,6 +409,7 @@
 		4A6FECC71E39C79300101B81 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = W6KLMFETUQ;
 				INFOPLIST_FILE = SplitTests/Info.plist;
@@ -403,6 +439,7 @@
 				4A6FECC41E39C79300101B81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A6FECC51E39C79300101B81 /* Build configuration list for PBXNativeTarget "SplitTests" */ = {
 			isa = XCConfigurationList;
@@ -411,6 +448,7 @@
 				4A6FECC71E39C79300101B81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

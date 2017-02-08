@@ -1,0 +1,40 @@
+<array>
+    <dict>
+        <key>Name</key>
+        <string>Cheetah</string>
+    </dict>
+    <dict>
+        <key>Name</key>
+        <string>Puma</string>
+    </dict>
+    <dict>
+        <key>Name</key>
+        <string>Jaguar</string>
+    </dict>
+    <dict>
+        <key>Name</key>
+        <string>Panther</string>
+    </dict>
+    <dict>
+        <key>Name</key>
+        <string>Tiger</string>
+    </dict>
+    <dict>
+        <key>Name</key>
+        <string>Leopard</key>
+    </dict>
+    <dict>
+        <key>Name</key>
+        <string>Snow Leopard</string>
+        <key>Favorite</key>
+        <true/>
+    </dict>
+    <dict>
+        <key>Name</key>
+        <string>Lion</string>
+    </dict>
+    <dict>
+        <key>Name</key>
+        <string>Mountain Lion</string>
+    </dict>
+</array>

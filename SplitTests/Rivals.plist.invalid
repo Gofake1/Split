@@ -1,0 +1,30 @@
+<array>
+    <dict>
+        <key>Name</key>
+        <string>Michigan</string>
+        <key>Mascot</key>
+        <string>Wolverines</string>
+    </dict>
+    <dict>
+        <key>Name</key>
+        <string>Michigan State</string>
+        <key>Mascot</key>
+        <string>Spartans</string>
+    </dict>
+    <dict>
+        <key>Name</key>
+        <string>Southern California</string>
+        <key>Mascot</key>
+        <string>Trojans</string>
+    </dict>
+    <dict>
+        <key>Name</key>
+        <string>Stanford</string>
+        <key>Mascot</key>
+        <string>Cardinal</string>
+    </dict>
+    <dict>
+        <key>Name</key>
+        <string>Purdue</string>
+        <key>Mascot</key>
+        <string>Boilermakers</string>
