@@ -51,6 +51,35 @@ public struct PlistDocument {
     }
 }
 
+extension PlistDocument: ExpressibleByStringLiteral,
+                         ExpressibleByUnicodeScalarLiteral,
+                         ExpressibleByExtendedGraphemeClusterLiteral {
+
+    public init(stringLiteral value: String) {
+        do {
+            self.root = try parse(value)
+        } catch {
+            fatalError()
+        }
+    }
+
+    public init(unicodeScalarLiteral value: String) {
+        do {
+            self.root = try parse(value)
+        } catch {
+            fatalError()
+        }
+    }
+
+    public init(extendedGraphemeClusterLiteral value: String) {
+        do {
+            self.root = try parse(value)
+        } catch {
+            fatalError()
+        }
+    }
+}
+
 enum PlistError: Error {
     case dataError
     case lexError(description: String)

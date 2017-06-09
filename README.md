@@ -1,3 +1,5 @@
+Rejoice: Swift 4 introduces `Codable`.
+
 # Split
 
 XML [Property List](https://en.wikipedia.org/wiki/Property_list) serializer written in Swift
